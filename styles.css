@@ -1313,6 +1313,9 @@ b{
 }
 
 @media only screen and (max-width: 750px) {
+    body{
+        overflow-x: hidden;
+    }
 
     .container{
     display: grid;
