@@ -1387,7 +1387,7 @@ b{
   .container2 {
     display: grid;
     height: 140vh;
-    grid-template-columns: 31em;
+    grid-template-columns: 30em;
     grid-template-rows:  10em 10em 10em 10em 10em 10em ;
 
 }
@@ -2268,7 +2268,7 @@ b{
 .container14 {
     display: grid;
     height: 220vh;
-    grid-template-columns: 31em;
+    grid-template-columns: 30em;
     grid-template-rows:  10em 10em 10em 10em 10em ;
     
 }
@@ -2413,7 +2413,7 @@ b{
 .container5 {
     display: grid;
     height: 75vh;
-    grid-template-columns: 30em;;
+    grid-template-columns: 30em;
     grid-template-rows: 0fr 2fr 2fr 2fr 2fr;
     background-color: red;
 }
@@ -2430,7 +2430,7 @@ b{
     text-align: left;
     padding-top: 1.7em;
     margin-left: 1em;
-    max-width: 26em;
+
 }
 
 #ficha h4{
@@ -2442,6 +2442,7 @@ b{
     display: inline;
     margin: 0;
     word-break:keep-all;
+    max-width: 26em;
 }
 
   
