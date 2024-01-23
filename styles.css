@@ -1,10 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/albra-display-trial');
 
-/* Second Font */
-@font-face {
-    font-family: 'Bressay';
-    src: url('/bressay/Bressay_Trial_Rg.ttf') format('truetype');
-}
+@import url('https://fonts.cdnfonts.com/css/bressay-trial');
 
 body {
     margin: 0;
@@ -38,7 +34,7 @@ header p {
 }
 
   #item-top3{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 6;
@@ -50,7 +46,7 @@ header p {
   }
 
   #item-top4{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 5;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -72,7 +68,7 @@ header p {
   }
 
   #image-top2{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 5;
@@ -83,7 +79,7 @@ header p {
   }
 
   #image-top3{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 3;
@@ -150,7 +146,7 @@ header p {
 }
 
 #indice{
-    font:  bold 1em/1.5 'Bressay', sans-serif;
+    font:  bold 1em/1.5 'Bressay Trial', sans-serif;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 2;
@@ -168,7 +164,7 @@ header p {
 }
 
 #editorial{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 3;
@@ -179,7 +175,7 @@ header p {
 }
 
 .brand-name {
-    font: italic bold 1em/1.5 'Bressay', sans-serif;
+    font: italic bold 1em/1.5 'Bressay Trial', sans-serif;
 }
 
 .container4 {
@@ -206,7 +202,7 @@ header p {
 
 #intro1{
     background-color: rgb(255, 255, 255);
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 2;
     grid-row-end:3;
     grid-column-start: 2;
@@ -236,7 +232,7 @@ header p {
 
 #intro2 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -276,7 +272,7 @@ header p {
 
 #intro3 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -312,7 +308,7 @@ header p {
 
 #intro4 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -358,7 +354,7 @@ header p {
 
 #intro5 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -428,7 +424,7 @@ header p {
 
 #intro7 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -464,7 +460,7 @@ header p {
 
 #intro8 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -498,7 +494,7 @@ header p {
 
 #intro9 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -534,7 +530,7 @@ header p {
 
 #intro10 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -568,7 +564,7 @@ header p {
 
 #intro11 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -604,7 +600,7 @@ header p {
 
 #intro12 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -638,7 +634,7 @@ header p {
 
 #intro13 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -674,7 +670,7 @@ header p {
 
 #intro14 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trialy', sans-serif;
    
 }
 
@@ -708,7 +704,7 @@ header p {
 
 #intro15 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
    
 }
 
@@ -728,7 +724,7 @@ header p {
 
 #intro16 p{
 
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     font-weight: bold;
    
 }
@@ -782,7 +778,7 @@ header p {
 }
 
 #metade1-texto1{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 4;
     grid-row-end: 11;
     grid-column-start: 1;
@@ -794,7 +790,7 @@ header p {
 }
 
 #metade1-texto2{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 7;
     grid-row-end: 11;
     grid-column-start: 1;
@@ -819,7 +815,7 @@ header p {
 }
 
 #metade2-texto1{
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 1;
     grid-row-end: 12;
     grid-column-start: 5;
@@ -877,7 +873,7 @@ header p {
     grid-column-end: 5;
     max-width: 21em;
     margin-left: 1em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container9-p2{
@@ -886,7 +882,7 @@ header p {
     grid-column-start: 5;
     grid-column-end: 6;
     max-width: 15em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     margin-left: -2em;
 }
 
@@ -896,7 +892,7 @@ header p {
     grid-column-start: 6;
     grid-column-end: 13;
     max-width: 30em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     margin-left: -2em;
 }
 
@@ -906,7 +902,7 @@ header p {
     grid-column-start: 6;
     grid-column-end: 13;
     max-width: 27em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     margin-left: 9em;
 }
 
@@ -966,7 +962,7 @@ header p {
     max-width: 21em;
     margin-left: 1em;
     margin-top:5em ;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     max-width: 15em;
 }
 
@@ -978,7 +974,7 @@ header p {
     max-width: 21em;
     margin-left: -5em;
     margin-top:-1em ;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     max-width: 20em;
 }
 
@@ -1030,7 +1026,7 @@ header p {
     max-width: 21em;
     margin-left: 1em;
     margin-top:10em ;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     max-width: 15em;
 }
 
@@ -1052,7 +1048,7 @@ header p {
     width: 20em;
     margin-left: 1em;
     margin-top: 10em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     max-width: 15em;
 }
 
@@ -1064,7 +1060,7 @@ header p {
     max-width: 21em;
     margin-left: 3em;
     margin-top: 7em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     max-width: 18em;
 }
 
@@ -1076,7 +1072,7 @@ header p {
     max-width: 21em;
     margin-left: -2em;
     margin-top: 7em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     max-width: 18em;
 }
 
@@ -1123,7 +1119,7 @@ header p {
     max-width: 39em;
     margin-left: 2em;
     margin-top: 3em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container12-p2{
@@ -1134,7 +1130,7 @@ header p {
     max-width: 20em;
     margin-left: 8em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container12-p3{
@@ -1145,7 +1141,7 @@ header p {
     max-width: 20em;
     margin-left: 8em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container12-p4{
@@ -1156,7 +1152,7 @@ header p {
     max-width: 20em;
     margin-left: 8em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container12-p1 b{
@@ -1205,7 +1201,7 @@ header p {
     max-width: 20em;
     margin-left: 2em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container13-p2{
@@ -1216,7 +1212,7 @@ header p {
     max-width: 42em;
     margin-left: 2em;
     margin-top: 4em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 #container13-p3{
@@ -1227,7 +1223,7 @@ header p {
     max-width: 20em;
     margin-left: 11em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 .container14 {
@@ -1271,7 +1267,7 @@ header p {
     max-width:13em;
     margin-left: 6em;
     margin-top: 2em;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
 }
 
 b{
@@ -1290,7 +1286,7 @@ b{
 
 #ficha{
     color: white;
-    font-family: 'Bressay', sans-serif;
+    font-family: 'Bressay Trial', sans-serif;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 2;
@@ -1325,7 +1321,7 @@ b{
 }
 
 #item-top3{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 6;
@@ -1345,7 +1341,7 @@ b{
   }
 
   #image-top2{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -1357,7 +1353,7 @@ b{
   }
 
   #item-top3{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 1;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -1368,7 +1364,7 @@ b{
   }
 
   #image-top3{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -1378,7 +1374,7 @@ b{
   }
 
   #image-top4{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 2;
     grid-row-end:3;
     grid-column-start: 1;
@@ -1836,7 +1832,7 @@ b{
 }
 
 #metade1-texto2{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 5;
     grid-row-end: 6;
     grid-column-start: 1;
@@ -1853,7 +1849,7 @@ b{
 }
 
 #metade2-texto1{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 1;
     grid-row-end: 12;
     grid-column-start: 1;
@@ -1913,7 +1909,6 @@ b{
     grid-column-end: 1;
     max-width: 26em;
     margin-left: 2em;
-    font-family: 'Bressay', sans-serif;
 }
 
 #container9-p2{
@@ -1922,7 +1917,6 @@ b{
     grid-column-start: 1;
     grid-column-end: 1;
     max-width: 26em;
-    font-family: 'Bressay', sans-serif;
     margin-left: 2em;
     margin-top: 3em;
 }
@@ -1933,7 +1927,6 @@ b{
     grid-column-start: 1;
     grid-column-end: 1;
     max-width: 26em;
-    font-family: 'Bressay', sans-serif;
     margin-left: 2em;
     margin-top: 5em;
 }
@@ -1944,7 +1937,6 @@ b{
     grid-column-start: 1;
     grid-column-end: 1;
     max-width: 26em;
-    font-family: 'Bressay', sans-serif;
     margin-left: 2em;
     margin-top: 8em;
 }
@@ -2003,7 +1995,7 @@ b{
     grid-column-end: 1;
     max-width: 22em;
     margin-left: 3em;
-    font-family: 'Bressay', sans-serif;
+
     margin-top: 7em;
 }
 
@@ -2014,7 +2006,6 @@ b{
     grid-column-end: 1;
     max-width: 26em;
     margin-left: 2em;
-    font-family: 'Bressay', sans-serif;
     margin-top: 1em;
 }
 
@@ -2064,7 +2055,6 @@ b{
     max-width: 26em;
     margin-left: 2.2em;
     margin-top:10em ;
-    font-family: 'Bressay', sans-serif;
 }
 
 #container11-image4{
@@ -2085,7 +2075,7 @@ b{
     width: 20em;
     margin-left: 1em;
     margin-top: 6em;
-    font-family: 'Bressay', sans-serif;
+
     max-width: 15em;
 }
 
@@ -2097,7 +2087,7 @@ b{
     max-width: 21em;
     margin-left:2em;
     margin-top: 2em;
-    font-family: 'Bressay', sans-serif;
+
     max-width: 26em;
 }
 
@@ -2109,7 +2099,7 @@ b{
     max-width: 21em;
     margin-left: 2em;
     margin-top: 4em;
-    font-family: 'Bressay', sans-serif;
+
     max-width: 26em;
 }
 
@@ -2159,7 +2149,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+
 }
 
 #container12-p1 b{
@@ -2175,7 +2165,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: 4em;
-    font-family: 'Bressay', sans-serif;
+
 }
 
 #container12-p3{
@@ -2186,7 +2176,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: 0em;
-    font-family: 'Bressay', sans-serif;
+
     
 }
 
@@ -2198,7 +2188,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: 7em;
-    font-family: 'Bressay', sans-serif;
+
 
 }
 
@@ -2237,7 +2227,7 @@ b{
     grid-column-end: 6;
     margin-left: 3em;
     margin-top: 6em;
-    font-family: 'Bressay', sans-serif;
+   
     max-width: 20em;
 }
 
@@ -2249,7 +2239,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: -3em;
-    font-family: 'Bressay', sans-serif;
+   
 }
 
 #container13-p2{
@@ -2260,7 +2250,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: 4em;
-    font-family: 'Bressay', sans-serif;
+   
 }
 
 
@@ -2272,7 +2262,7 @@ b{
     max-width: 26em;
     margin-left: 3em;
     margin-top: 1em;
-    font-family: 'Bressay', sans-serif;
+
 }
 
 .container14 {
@@ -2319,7 +2309,7 @@ b{
     max-width:26em;
     margin-left: 2em;
     margin-top: 2em;
-    font-family: 'Bressay', sans-serif;
+
     color: #ffffff;
 }
 
@@ -2344,7 +2334,7 @@ b{
   }
 
   #item-top5{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 6;
     grid-row-end: 6;
     grid-column-start: 6;
@@ -2361,7 +2351,7 @@ b{
 }
 
 #editorial{
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 2;
@@ -2392,7 +2382,7 @@ b{
 
 #intro1{
     background-color: rgb(255, 255, 255);
-    font-family: 'Bressay', sans-serif;
+
     font-size: 14px;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -2407,7 +2397,7 @@ b{
 
 #intro2{
     background-color: rgb(255, 255, 255);
-    font-family: 'Bressay', sans-serif;
+   
 
     grid-row-start: 3;
     grid-row-end: 4;
@@ -2430,7 +2420,7 @@ b{
 
 #ficha{
     color: white;
-    font-family: 'Bressay', sans-serif;
+
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 2;
