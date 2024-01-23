@@ -211,7 +211,7 @@
  <div class="container10">
     <img  src="assets/12-03.png" id="container10-image1">
     <img src="assets/10-02-06.png" id="container10-image2">
-    <img data-tilt src="/assets/11-01.png" id="container10-image3">
+    <img data-tilt id="container10-image3">
     <p id="container10-p1">Over time, the methods and technologies available for type design have improved and designers have to evolve and adapt their process of thinking in accordance. Generative Adversarial Networks (GANs) have revealed impressive advances, presenting high-resolution images nearly indistinguishable from the real ones. In the typographic field, they are helpful when one wishes to obtain coherent glyphs in a typeface. When designing a typeface, one has to simultaneously seek an aesthetically appealing result and coherence among the different glyphs. This can be facilitated by exploring the similarities between the same letter present across diverse fonts, and the transferred stylistic elements within the same font. Balashova et al. develop a stroke-based geometric model for glyphs, a fitting procedure to re-parametrise arbitrary fonts to capture these correlations.</p>
     <p id="container10-p2">The framework uses a manifold learning technique that allows for interactively improving the fit quality and interpolating, adding or removing stylistic elements in existing fonts. Campbell and Kautz develop a similar contour-based framework allowing the editing of a glyph and the propagation of stylistic elements across the entire alphabet. Phan et al.  and Suveeranont and Igarashi present two different frameworks that give one or more outline-based glyphs of several characters as input, producing a complete typeface that bears a similar style to the inputs. Rehling and Hofstadter use one or more grid-based lowercase letters to generate the rest of the Roman alphabet, creating glyphs that share different style features. Azadi et al. develop an end-to-end stacked conditional GAN model to generate a set of highly-stylised glyph images following a consistent style from very few examples.
     </p>
@@ -268,20 +268,6 @@
 
 <script src="tilt.jquery.js"></script>
 
-<script>
-    $(document).ready(function () {
-        // Initialize Tilt.js for item-top1
-
-        // Initialize Tilt.js for background1
-
-
-        // Initialize Tilt.js for image-top1
-        $('container10-image3').tilt({
-            glare: true,
-            maxGlare: 0.5
-        });
-    });
-</script>
 
 <script>
     $(document).ready(function () {
@@ -407,6 +393,36 @@
                     $('#image-top3').attr('src', imageUrl);
 
 
+                } else {
+                    console.error('No objects found in the response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching image data:', error);
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Make an API request to get image data from Cosmic.js
+        $.ajax({
+            url: 'https://api.cosmicjs.com/v3/buckets/teste-production/objects?pretty=true&query=%7B%22type%22:%22imagens%22,%22metadata.id%22:5%7D&limit=10&read_key=xYjp1dkv0gyYx9zrGRc5DIPfl1JxUpK8ap3uGtThcG5XjQhDjs&depth=1&props=slug,title,metadata',
+            method: 'GET',
+            success: function (response) {
+                // Check if there are objects in the response
+                if (response.objects && response.objects.length > 0) {
+                    // Extract the URL of the image with id "2"
+                    var imageUrl = response.objects[0].metadata.imagem.url;
+
+                    // Set the src attribute of the img tag with id "image-top2"
+                    $('#container10-image3').attr('src', imageUrl);
+
+                    $('#container10-image3').tilt({
+                        glare: true,
+                        maxGlare: 0.5
+                    });
                 } else {
                     console.error('No objects found in the response.');
                 }
