@@ -51,10 +51,10 @@
     <div id="item-top4">Nº1 <br> Trimestral <br> Revista de cultura tipográfica </div>
 
     <img data-tilt  id="image-top1">
-    <img data-tilt src="/assets/2-03.png" id="image-top2">
+    <img data-tilt id="image-top2">
    
-    <img  src="/assets/3-04.png" id="image-top4">
-    <img  src="/assets/5-05.png" id="image-top3">
+    <img  id="image-top4">
+    <img  id="image-top3">
 
 </div>
 
@@ -282,21 +282,7 @@
         });
     });
 </script>
-<script>
-    $(document).ready(function () {
-        // Initialize Tilt.js for item-top1
 
-
-        // Initialize Tilt.js for background1
-
-
-        // Initialize Tilt.js for image-top1
-        $('#image-top2').tilt({
-            glare: true,
-            maxGlare: 0.5
-        });
-    });
-</script>
 <script>
     $(document).ready(function () {
         const background5 = document.getElementById('background5');
@@ -336,6 +322,91 @@
                         glare: true,
                         maxGlare: 0.5
                     });
+                } else {
+                    console.error('No objects found in the response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching image data:', error);
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Make an API request to get image data from Cosmic.js
+        $.ajax({
+            url: 'https://api.cosmicjs.com/v3/buckets/teste-production/objects?pretty=true&query=%7B%22type%22:%22imagens%22,%22metadata.id%22:2%7D&limit=10&read_key=xYjp1dkv0gyYx9zrGRc5DIPfl1JxUpK8ap3uGtThcG5XjQhDjs&depth=1&props=slug,title,metadata',
+            method: 'GET',
+            success: function (response) {
+                // Check if there are objects in the response
+                if (response.objects && response.objects.length > 0) {
+                    // Extract the URL of the image with id "2"
+                    var imageUrl = response.objects[0].metadata.imagem.url;
+
+                    // Set the src attribute of the img tag with id "image-top2"
+                    $('#image-top2').attr('src', imageUrl);
+
+                    // Initialize Tilt.js for image-top2
+                    $('#image-top2').tilt({
+                        glare: true,
+                        maxGlare: 0.5
+                    });
+                } else {
+                    console.error('No objects found in the response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching image data:', error);
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Make an API request to get image data from Cosmic.js
+        $.ajax({
+            url: 'https://api.cosmicjs.com/v3/buckets/teste-production/objects?pretty=true&query=%7B%22type%22:%22imagens%22,%22metadata.id%22:3%7D&limit=10&read_key=xYjp1dkv0gyYx9zrGRc5DIPfl1JxUpK8ap3uGtThcG5XjQhDjs&depth=1&props=slug,title,metadata',
+            method: 'GET',
+            success: function (response) {
+                // Check if there are objects in the response
+                if (response.objects && response.objects.length > 0) {
+                    // Extract the URL of the image with id "2"
+                    var imageUrl = response.objects[0].metadata.imagem.url;
+
+                    // Set the src attribute of the img tag with id "image-top2"
+                    $('#image-top4').attr('src', imageUrl);
+
+
+                } else {
+                    console.error('No objects found in the response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching image data:', error);
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Make an API request to get image data from Cosmic.js
+        $.ajax({
+            url: 'https://api.cosmicjs.com/v3/buckets/teste-production/objects?pretty=true&query=%7B%22type%22:%22imagens%22,%22metadata.id%22:4%7D&limit=10&read_key=xYjp1dkv0gyYx9zrGRc5DIPfl1JxUpK8ap3uGtThcG5XjQhDjs&depth=1&props=slug,title,metadata',
+            method: 'GET',
+            success: function (response) {
+                // Check if there are objects in the response
+                if (response.objects && response.objects.length > 0) {
+                    // Extract the URL of the image with id "2"
+                    var imageUrl = response.objects[0].metadata.imagem.url;
+
+                    // Set the src attribute of the img tag with id "image-top2"
+                    $('#image-top3').attr('src', imageUrl);
+
+
                 } else {
                     console.error('No objects found in the response.');
                 }
