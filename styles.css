@@ -2413,7 +2413,7 @@ b{
 .container5 {
     display: grid;
     height: 75vh;
-    grid-template-columns: 0.4fr 2fr 1fr 1fr 1fr;
+    grid-template-columns: 750px;
     grid-template-rows: 0fr 2fr 2fr 2fr 2fr;
     background-color: red;
 }
