@@ -1,8 +1,4 @@
-/* First Font */
-@font-face {
-    font-family: 'Albra';
-    src: url('/albra/AlbraDisplayTRIAL-Black.otf') format('opentype');
-}
+@import url('https://fonts.cdnfonts.com/css/albra-display-trial');
 
 /* Second Font */
 @font-face {
