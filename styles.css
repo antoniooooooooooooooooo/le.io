@@ -1,13 +1,13 @@
 /* First Font */
 @font-face {
     font-family: 'Albra';
-    src: url('/fonts/albra/AlbraDisplayTRIAL-Black.otf') format('opentype');
+    src: url('/albra/AlbraDisplayTRIAL-Black.otf') format('opentype');
 }
 
 /* Second Font */
 @font-face {
     font-family: 'Bressay';
-    src: url('/fonts/bressay/Bressay_Trial_Rg.ttf') format('truetype');
+    src: url('/bressay/Bressay_Trial_Rg.ttf') format('truetype');
 }
 
 body {
