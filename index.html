@@ -50,7 +50,7 @@
     <div id="item-top3">Primavera, 2022  <br> Coimbra, Portugal <br>  </div>
     <div id="item-top4">Nº1 <br> Trimestral <br> Revista de cultura tipográfica </div>
 
-    <img data-tilt src="/assets/1-02.png" id="image-top1">
+    <img data-tilt  id="image-top1">
     <img data-tilt src="/assets/2-03.png" id="image-top2">
    
     <img  src="/assets/3-04.png" id="image-top4">
@@ -267,20 +267,7 @@
 </div>
 
 <script src="tilt.jquery.js"></script>
-<script>
-    $(document).ready(function () {
-        // Initialize Tilt.js for item-top1
 
-        // Initialize Tilt.js for background1
-
-
-        // Initialize Tilt.js for image-top1
-        $('#image-top1').tilt({
-            glare: true,
-            maxGlare: 0.5
-        });
-    });
-</script>
 <script>
     $(document).ready(function () {
         // Initialize Tilt.js for item-top1
@@ -327,5 +314,38 @@
         setInterval(shrinkImage, 5000);
     });
 </script>
+
+<!-- Add this script section after including jQuery -->
+<script>
+    $(document).ready(function () {
+        // Make an API request to get image data from Cosmic.js
+        $.ajax({
+            url: 'https://api.cosmicjs.com/v3/buckets/teste-production/objects?pretty=true&query=%7B%22type%22:%22imagens%22,%22metadata.id%22:1%7D&limit=10&read_key=xYjp1dkv0gyYx9zrGRc5DIPfl1JxUpK8ap3uGtThcG5XjQhDjs&depth=1&props=slug,title,metadata',
+            method: 'GET',
+            success: function (response) {
+                // Check if there are objects in the response
+                if (response.objects && response.objects.length > 0) {
+                    // Extract the URL of the image with id "1"
+                    var imageUrl = response.objects[0].metadata.imagem.url;
+
+                    // Set the src attribute of the img tag with id "image-top1"
+                    $('#image-top1').attr('src', imageUrl);
+
+                    // Initialize Tilt.js for image-top1
+                    $('#image-top1').tilt({
+                        glare: true,
+                        maxGlare: 0.5
+                    });
+                } else {
+                    console.error('No objects found in the response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching image data:', error);
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
