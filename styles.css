@@ -131,7 +131,9 @@ header p {
     font-size: 6em;
     margin-left: 0.2em;
     text-align: left;
+    cursor: pointer;
 }
+
 
 #container2-p2{
     font-family: 'Albra', sans-serif;
@@ -143,6 +145,7 @@ header p {
     font-size: 6em;
     margin-right: 0.2em;
     text-align: right;
+    cursor: pointer;
 }
 
 #indice{

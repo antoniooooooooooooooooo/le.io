@@ -74,9 +74,9 @@
 <div class="container2">
    <div id="container2-metade1"></div>
     <div id="container2-metade2"></div>
-    <p id="container2-p1">Thirteen Ways of Looking at a Typeface</p>
+    <p id="container2-p1"  onclick="scrollToBackground()">Thirteen Ways of Looking at a Typeface</p>
 
-    <p id="container2-p2">Using Autoencoders to Generate Skeleton-based Typography </p>
+    <p id="container2-p2" onclick="scrollToContainer8()">Using Autoencoders to Generate Skeleton-based Typography </p>
 </div>
 
 <div class="container4">
@@ -433,6 +433,21 @@
         });
     });
 </script>
-
+<script>
+    function scrollToBackground() {
+        // Scroll smoothly to the element with id "background1"
+        $('html, body').animate({
+            scrollTop: $('#background1').offset().top
+        }, 600); // Adjust the duration as needed
+    }
+</script>
+<script>
+    function scrollToContainer8() {
+        // Scroll smoothly to the element with id "background1"
+        $('html, body').animate({
+            scrollTop: $('#metade1').offset().top
+        }, 2500); // Adjust the duration as needed
+    }
+</script>
 </body>
 </html>
