@@ -1797,7 +1797,7 @@ b{
 .container8 {
     display: grid;
     height: 220vh;
-    grid-template-columns:  500em;
+    grid-template-columns:  750px;
     grid-template-rows: 10em  10em  10em  10em  10em   10em 10em 10em 10em 10em 10em ;
 }
 
