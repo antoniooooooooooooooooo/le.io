@@ -1797,7 +1797,7 @@ b{
 .container8 {
     display: grid;
     height: 220vh;
-    grid-template-columns:  750px;
+    grid-template-columns:  30em;
     grid-template-rows: 10em  10em  10em  10em  10em   10em 10em 10em 10em 10em 10em ;
 }
 
@@ -2413,7 +2413,7 @@ b{
 .container5 {
     display: grid;
     height: 75vh;
-    grid-template-columns: 750px;
+    grid-template-columns: 30em;;
     grid-template-rows: 0fr 2fr 2fr 2fr 2fr;
     background-color: red;
 }
@@ -2423,12 +2423,14 @@ b{
 
     grid-row-start: 2;
     grid-row-end: 4;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 4;
     align-items: center;
     justify-content: center;
     text-align: left;
     padding-top: 1.7em;
+    margin-left: 1em;
+    max-width: 26em;
 }
 
 #ficha h4{
