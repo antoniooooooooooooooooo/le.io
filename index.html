@@ -551,7 +551,7 @@ desired styles.
             inside the generated glyphs turns almost
             nil and they lost the serifs.</p>
 
-            <img src="/assets/novas-29.png" id="container17-image3">
+            <img id="container17-image3">
 
             <p id="container17-legend2">Fig. 8. Results of the latent space interpolation filling the
                 skeleton with an interpolated stroke width.</p>
@@ -902,6 +902,32 @@ desired styles.
 
                     // Set the src attribute of the img tag with id "image-top2"
                     $('#container19-image1').attr('src', imageUrl);
+
+
+                } else {
+                    console.error('No objects found in the response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error fetching image data:', error);
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        // Make an API request to get image data from Cosmic.js
+        $.ajax({
+            url: 'https://api.cosmicjs.com/v3/buckets/teste-production/objects?pretty=true&query=%7B%22type%22:%22imagens%22,%22metadata.id%22:8%7D&limit=10&read_key=xYjp1dkv0gyYx9zrGRc5DIPfl1JxUpK8ap3uGtThcG5XjQhDjs&depth=1&props=slug,title,metadata',
+            method: 'GET',
+            success: function (response) {
+                // Check if there are objects in the response
+                if (response.objects && response.objects.length > 0) {
+                    // Extract the URL of the image with id "2"
+                    var imageUrl = response.objects[0].metadata.imagem.url;
+
+                    // Set the src attribute of the img tag with id "image-top2"
+                    $('#container17-image3').attr('src', imageUrl);
 
 
                 } else {
