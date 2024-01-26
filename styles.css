@@ -1639,7 +1639,7 @@ header p {
     grid-column-start: 7;
     grid-column-end: 9;
     max-width: 21em;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-top: 7em;   
 }
 
@@ -2490,7 +2490,7 @@ b{
     grid-column-end: 1;
     max-width: 26em;
     margin-left: 2em;
-    margin-top: 5em;
+    margin-top: 8em;
 }
 
 #container9-p4{
@@ -2500,7 +2500,7 @@ b{
     grid-column-end: 1;
     max-width: 26em;
     margin-left: 2em;
-    margin-top: 8em;
+    margin-top: 12em;
 }
 
 #container9-image3{
@@ -2511,6 +2511,20 @@ b{
     width: 19em;
     margin-top: -1em;
     margin-left: 5em;
+}
+
+#container9-legend1{
+    grid-row-start: 10;
+    grid-row-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    max-width: 26em;
+    margin-left: 9em;
+    margin-top: 3em;
+    font-family: 'Bressay Trial', sans-serif;
+    color: #000000;
+    font-style: italic;
+    font-size: 11px;  
 }
   
 .container10 {
@@ -2756,7 +2770,7 @@ b{
 
 .container13 {
     display: grid;
-    height: 280vh;
+    height: 310vh;
     grid-template-columns: 1fr ;
     grid-template-rows: 10em 10em 10em 10em  10em 10em 10em 10em  10em 10em 10em 10em 10em 10em ;
 }
@@ -2773,13 +2787,29 @@ b{
 }
 
 #container13-image2{
-    grid-row-start: 1;
-    grid-row-end: 12;
+    grid-row-start: 13;
+    grid-row-end: 20;
     grid-column-start: 1;
     grid-column-end: 1;
-    max-width:46em;
+    max-width:26em;
     margin-top: 2em;
-    visibility: hidden;
+    margin-left: 2em;
+
+}
+
+#container13-legend1{
+    grid-row-start: 14;
+    grid-row-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    max-width: 28em;
+    margin-left: 10em;
+    margin-top: 4em;
+    font-family: 'Bressay Trial', sans-serif;
+    color: #000000;
+    font-style: italic;
+    font-size: 11px;
+
 }
 
 #container13-image3{
